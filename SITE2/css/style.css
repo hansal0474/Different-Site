@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Supermercado+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Supermercado One', cursive;
+}
+
+h1{
+    font-weight: 800;
+}
+
+h2{
+    font-weight: 700;
+}
+
+h3{
+    font-weight: 600;
+}
+
+h4{
+    font-weight: 500;
+}
+
+h5{
+    font-weight: 400;
+}
+
+h6{
+    font-weight: 300;
+}
+
+/* navigation section start */
+.navbar-brand{
+    color: #fff !important; 
+}
+
+
+/* navigation section end */
+
+/* front page start */
+
+.background-gradiant{
+    background-image: linear-gradient(to bottom right, rgb(248, 73, 102), purple);
+    padding: 0 0 100px 0;
+}
+
+.front-page-left-main{
+    margin: 150px 0;
+}
+
+.front-page-left-inner h1{
+    color: white;
+    margin: 20px 0;
+    font-size: 56px;
+}
+
+.front-page-left-inner h4{
+    color: white;
+    margin: 10px 0;
+}
+
+.front-page-left-inner .get-the-app-btn{
+    margin: 30px 0;
+}
+
+.get-the-app-btn{
+    color: white;
+    background-color:rgb(204, 43, 70);
+    border: none;
+    font-size: 18px;
+    padding: 15px 20px;
+    transition: 0.5s ease-in;
+}
+
+.get-the-app-btn:hover{
+    color: rgb(204, 43, 70);
+    background-color: #fff;
+    transition: 0.5s ease-in;
+    transform: translate(0, -6px);
+}
+
+.front-page-right-inner{
+    margin: 100px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+/* front page end */
+
+/* second page start */
+
+.second-page{
+    text-align: center;
+    background-color: rgb(92, 92, 92);
+    width: 100%;
+}
+
+.second-page-main h1, h6 {
+    color: #fff;
+}
+
+.second-page-main{
+    margin: 50px auto;
+}
+/* second page end */
+
+/* feature page start */
+
+.first-feature, .second-feature, .third-feature{
+    margin: 40px 0;
+}
+
+.feature-sec img{
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* feature page end */
+
+/* activity page start */
+
+.activity-sec{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.activity-inner h6{
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.activity-inner  h6{
+    color: black;
+}
+
+/* activity page end */
+
+/* analysis section start */
+
+.analysis-sec{
+    text-align: center;
+}    
+
+/* analysis section end */
+
+/* use sec start */
+
+.use-sec{
+    margin: 50px 0;
+}
+
+.use-first , .use-second{
+    margin: 80px 0;
+}
+
+/* use sec end */
+
+/* feedback start */
+
+.feedback-sec{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.feedback-sec p{
+    padding: 0 20%;
+    line-height: 1.8;
+}
+
+.fa-angle-double-left{
+    color:black
+}
+
+.fa-angle-double-right {
+    color: black;
+}
+
+/* feedback end */
+
+/* icon section start */
+
+.icon-sec-main{
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* icon section end */
+
+/* get started section start */
+.get-started-sec{
+    text-align:center;
+    padding: 150px 0;
+    background-image: linear-gradient(to right,rgb(248, 73, 102), purple);
+}
+
+.download-btn{
+    color: white;
+    background-color:rgb(204, 43, 70);
+    border: none;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin: 30px 20px;
+    transition: 0.5s ease-in;
+}
+
+.download-btn:hover{
+    color: rgb(204, 43, 70);
+    background-color: #fff;
+    transition: 0.5s ease-in;
+    transform: translate(0, -6px);
+}
+
+.get-in-touch-btn{
+    color: rgb(204, 43, 70);
+    background-color: #fff;
+    border: none;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin: 30px 20px;
+    transition: 0.5s ease-in;
+}
+
+.get-in-touch-btn:hover{
+    color: white;
+    background-color:rgb(204, 43, 70);
+    transition: 0.5s ease-in;
+    transform: translate(0, -6px);
+}
+
+/* get started section end */
+
+/* get update section start*/
+
+.get-update-sec{
+    padding: 150px 0 50px 0;
+    text-align: center;
+    background-color: rgb(92, 92, 92);
+}
+
+input{
+    padding: 15px 0;
+    margin: 0 0;
+    box-sizing: border-box;
+    outline: none;
+    caret-color: rgb(204, 43, 70);
+    text-align: center;
+}
+
+input[type=email]:focus{
+    border: 2px solid rgb(204, 43, 70);
+}
+
+.get-update-inner h1, h6{
+    color: #fff;
+}
+
+.subscribe-btn{
+    color: white;
+    background-color:rgb(204, 43, 70);
+    border: none;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin: 30px 0;
+    transition: 0.5s ease-in;
+}
+
+.subscribe-btn:hover{
+    color: rgb(204, 43, 70);
+    background-color: #fff;
+    transition: 0.5s ease-in;
+    transform: translate(0, -6px);
+}
+
+.site-image{
+    margin: 50px 0;
+}
+
+.get-update-sec ul{
+    list-style: none;
+    color: #fff;
+}
+
+/* get update section end */

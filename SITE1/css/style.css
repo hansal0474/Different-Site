@@ -1,0 +1,868 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.html,body{
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-weight: 800 !important;
+}
+
+/* benner css start */
+
+.benner-section-main{
+    margin: 0 0;
+    padding: 10% 0;
+    font-family: 'Merriweather', serif;
+    background-image: url("https://source.unsplash.com/1920x1080/?nature");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.benner-content-main{
+    background-color: #fff;
+    padding: 10% 10%;
+    margin: 0 10%;
+    font-family: 'Merriweather', serif;
+}
+
+.benner-content-inner h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin:0 0 60px 0;
+    text-transform: uppercase;
+}
+
+.benner-content-inner h1{
+    font-weight: 800;
+    margin: 0 0 60px 0;
+    text-transform: uppercase;
+    padding: 0 30px;
+    line-height: 1.6;
+}
+
+.benner-content-inner p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 60px 0;
+    text-transform: capitalize;
+    padding: 0 50px;
+    line-height: 1.8;
+}
+
+.benner-content-inner .sign-me-up-btn{
+    padding: 15px 15px;
+    border-radius: 5px;
+    font-size: 24px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    background-color: #9b716a;
+}
+
+.benner-content-inner .sign-me-up-btn:hover{
+    background-color: #81564e;
+    border: none;
+}
+
+/* benner css end */
+
+/* welcome css start */
+
+.welcome-sec{
+    padding:150px 0px;
+    font-family: 'Merriweather', serif;
+}
+
+.welcome-left-content h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 80px 0 20px 0;
+}
+
+.welcome-left-content h1{
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+}
+
+.welcome-left-content p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+}
+
+/* welcome css end */
+
+/* challenge css start */
+
+.challenge-sec{
+    padding:10px 0px;
+    font-family: 'Merriweather', serif;
+}
+
+.challenge-left-content h1{
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin: 80px 0 20px 0;
+}
+
+.challenge-left-content h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+.challenge-left-content p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 40px 0 20px 0;
+}
+
+/* challenge css end */
+
+/* pain point css start */
+
+.pain-point{
+    padding: 80px 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.pain-point-main h1{
+    margin:60px 0 30px 0;
+    font-size: 76px;
+    font-weight: 800;
+    background-color: azure;
+}
+
+.pain-point-main p{
+    line-height: 1.8;
+    margin: 30px 0 0 0;
+}
+
+/* pain point css end */
+
+/* secret css start */
+
+.secret-sec{
+    padding: 70px 0;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    align-items: center;
+}
+
+.secret-cont-main-right{
+    background-color: white;
+    margin: 80px 0 0 -80px;
+    padding: 20px 0;
+}
+
+.secret-cont-inner-right{
+    margin: 0 0 0 30px
+}
+
+.secret-cont-inner-right h5{
+    margin: 20px 0;
+}
+
+.secret-cont-inner-right h1{
+    margin: 10px 0;
+    font-weight: 800;
+}
+
+.secret-cont-inner-right p{
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+/* secret css end */
+
+/* introduction section start */
+
+.intoduction-sec{
+    text-align: center;
+    padding: 100px 0 400px 0;
+    background-image: url("https://source.unsplash.com/1920x1080/?nature");
+    background-attachment: fixed;
+    font-family: 'Merriweather', serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inroduction-sec-content{
+    margin: 30px 0;
+    color: #fff;
+}
+
+.inroduction-sec-content h3{
+    text-transform: uppercase;
+}
+
+.inroduction-sec-content h1{
+    text-transform: capitalize;
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.inroduction-sec-content p{
+    padding: 0 15%;
+}
+
+
+/* introduction section end */
+
+/* intro image start */
+
+.intro-image{
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+/* intro image end */
+
+/* module section start */
+
+.module-sec{
+    font-family: 'Merriweather', serif;
+}
+
+.module{
+    margin: 100px 0;
+    background-color: antiquewhite;
+}
+
+.module-sec-heading-main{
+    margin: 100px 0;
+    text-align: center;
+}
+
+/* module 1-3 */
+
+.module13-left-inner{
+    padding: 0 10%;
+}
+
+.module13-left-inner h4{
+    margin: 50px 0;
+}
+
+.module13-left-inner h1{
+    margin: 0 0 30px 0;
+    font-weight: 800;
+}
+
+.module13-left-inner p{
+    line-height: 1.8;
+
+}
+
+/* module 2-4 */
+
+.module24-right-inner{
+    padding: 0 10%;
+}
+
+.module24-right-inner h4{
+    margin: 50px 0;
+}
+
+.module24-right-inner h1{
+    margin: 0 0 30px 0;
+    font-weight: 800;
+}
+
+.module24-right-inner p{
+    line-height: 1.8;
+
+}
+
+/* result module */
+
+.result-heading{
+    margin: 40px 0;
+    text-align: center;
+}
+
+.result-left-main h1{
+    font-weight: 800;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-right-inner p{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.result-question .yes-right-now-btn{
+    padding: 15px 15px;
+    margin: 0 0 80px 0;
+    border-radius: 0px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    background-color: #9b716a;
+}
+
+.result-question .yes-right-now-btn:hover{
+    background-color: #81564e;
+    border: none;
+}
+
+/* module section end */
+
+/* goal section start */
+
+.goal-sec{
+    font-family: 'Merriweather', serif;
+    margin: 50px 0;
+}
+
+.goal-left-main{
+    margin: 50px 0;
+}
+
+.goal-left-inner h4{
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.goal-left-inner h1{
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+.goal-left-inner p{
+    line-height: 1.8;
+}
+
+.goal-left-inner h3{
+    font-weight: 600;
+}
+
+
+/* goal section end */
+
+
+/* wish section start */
+.wish-section{
+    margin: 80px 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.wish-heading {
+    margin: 20px 0;
+}
+
+.wish-image{
+    margin: 30px 0;
+}
+
+.heading-button h5{
+    margin: 50px;
+}
+
+.heading-button .okay-i-am-ready-btn{
+    padding: 15px 15px;
+    margin: -30px 0 80px 0;
+    border-radius: 0px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    background-color: #9b716a;
+}
+
+.heading-button .okay-i-am-ready-btn:hover{
+    background-color: #81564e;
+    border: none;
+}
+
+/* wish section end */
+
+/* plan payment start */
+
+.plan-payment{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.plan-payment .plan-payment-heading{
+    margin: 20px 0;
+}
+
+.plan-payment .payment-left-heading{
+    margin: 20px 0;
+    color: #fff;
+    background-color: black;
+}
+
+.plan-payment .payment-left-heading h3{
+    padding:10px 0;
+}
+
+.plan-payment .plan-payment-heading{
+    margin: 20px 0;
+}
+
+.plan-payment .payment-right-heading{
+    margin: 20px 0;
+    color: #fff;
+    background-color: black;
+}
+
+.plan-payment .payment-right-heading h3{
+    padding:10px 0;
+}
+
+.plan-payment .payment-option{
+    margin: 30px 0 0 0;
+}
+
+.plan-payment .payment-left-btn , .payment-right-btn{
+    margin: 60px 0 0 0;
+}
+
+.plan-payment .payment-btn{
+    padding: 15px 15px;
+    margin: -30px 0 80px 0;
+    border-radius: 0px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    background-color: #9b716a;
+}
+
+.plan-payment .payment-btn:hover{
+    background-color: #81564e;
+    border: none;
+}
+
+
+/* plan payment end */
+
+/* bonus section start */
+
+.bonus{
+    margin: 50px 0;
+    font-family: 'Merriweather', serif;
+}
+
+.bonus-left-main{
+    margin: 50px;
+}
+
+.bonus-left-content h5{
+    text-transform: uppercase;
+}
+
+.bonus-left-content h1{
+    text-transform: capitalize;
+    line-height: 1.6;
+    font-weight: 800;
+}
+
+.bonus-left-content p{
+    line-height: 1.8;
+}
+
+.bonus .bonus-btn{
+    padding: 15px 15px;
+    margin: 20px 0 80px 0;
+    border-radius: 0px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    background-color: #9b716a;
+}
+
+.bonus .bonus-btn:hover{
+    background-color: #81564e;
+    border: none;
+}
+
+/* bonus section end */
+
+/* control section start */
+
+.control-sec{
+    font-family: 'Merriweather', serif;
+    margin: 0 0 80px 0;
+}
+
+.control-right-text{
+    margin: 0 0 0 20px;
+}
+
+.control-right-text p{
+    line-height: 1.8;
+    margin: 30px 0;
+}
+
+.control-right-text img{
+    height: auto;
+}
+
+/* control section end */
+
+/* short sec  start*/
+
+.short-sec{
+    padding: 10% 25%;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    background-image: url("https://source.unsplash.com/1920x1080/?nature");
+    background-attachment: fixed;
+    margin: 2% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+
+.short-sec-inner h1{
+    padding: 2% 0;
+    color: #fff;
+    font-weight: 800;
+}
+
+.short-sec-inner h3{
+    padding: 2% 0;
+    color: #fff;
+}
+
+.short-sec-inner img{
+    border-radius: 50%;
+}
+
+/* short sec end*/
+
+/* program sec start */
+
+.program-sec{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.program-sec-heading{
+    margin: 2% 0;
+}
+
+.program-sec-main{
+    margin: 3% 0;
+    padding: 15% 15%;
+    background-color: beige;
+}
+
+.program-sec-inner p{
+    font-size: larger;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.program-sec-btn{
+    padding: 15px 15px;
+    margin: 5% 0 5% 0;
+    font-size: 24px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    background-color: #9b716a;
+}
+
+.program-sec-btn:hover{
+    background-color: #81564e;
+    border: none;
+}
+
+/* program sec end */
+
+/* help sec start */
+
+.help-section{
+    font-family: 'Merriweather', serif;
+    margin: 0 0 60px 0;
+}
+
+.help-section-center{
+    margin: 15% -8% 0 0;
+    z-index: 2;
+}
+
+.help-section-right{
+    margin: 0 0 0 -10%;
+}
+
+/* help sec end */
+
+/* unique section start */
+
+.unique-sec{
+    margin: 10% 0;
+    font-family: 'Merriweather', serif;
+    background-color: beige;
+}
+
+.unique-sec-img{
+    margin-top: -10%;
+}
+
+.unique-sec-right-main{
+    margin: 5% 0;
+}
+
+.unique-sec-right-inner h1{
+    font-weight: 800;
+    line-height: 1.6;
+    margin: 2% 0;
+}
+
+.unique-sec-right-inner p{
+    line-height: 1.8;
+    margin: 3% 0;
+    word-spacing: 3px;
+}
+
+/* unique section end */
+
+/* committing section start */
+
+.committing-sec{
+    font-family: 'Merriweather', serif;
+    margin: 0% 0;
+    background-color: beige;
+    padding: 5% 0;
+}
+
+.committing-cont-main-right{
+    background-color: #fff;
+    margin: 10% 0 5% -15%;
+}
+
+.committing-cont-inner-right{
+    margin: 0 0 0 5%;
+    padding: 5% 0 5% 0;
+}
+
+.committing-cont-inner-right h1{
+    font-weight: 800;
+}
+
+.ready-now-btn{
+    padding: 15px 15px;
+    margin: 5% 0 5% 0;
+    font-size: 24px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    background-color: #9b716a;
+}
+
+.ready-now-btn:hover{
+    background-color: #81564e;
+    border: none;
+}
+
+/* committing section end */
+
+/* money back section start */
+
+.moneyback-sec{
+    background-color: rgb(201, 201, 154);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding: 15% 0;
+}
+
+.moneyback-sec-content img{
+    border-radius: 50%;
+}
+
+.moneyback-sec-content h1{
+    margin: 2% 0;
+    padding: 0 5%;
+}
+
+
+.moneyback-sec-content p{
+    margin: 2% 0;
+    padding: 0 3%;
+}
+
+
+/* money back section end */
+
+/* short2 section start */
+
+.short-sec2{
+    margin: 0% 0;
+    padding: 10% 25%;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    background-image: url("https://source.unsplash.com/1920x1080/?nature");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.short-sec2 .short-sec-inner h1{
+    padding: 2% 0;
+    color: #fff;
+    font-weight: 800;
+}
+
+.short-sec2 .short-sec-inner h3{
+    padding: 2% 0;
+    color: #fff;
+}
+
+.short-sec2 .short-sec-inner img{
+    border-radius: 50%;
+}
+
+/*  short2 section end */
+
+/* do this section start */
+
+.do-this-section{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 10% 0 5% 0;
+}
+
+.do-this-heading h1{
+    font-weight: 800;
+}
+
+.do-this-image{
+    margin: 3% 0;
+}
+
+/* do this section end */
+
+/* questions section start */
+
+.questions-sec{
+    font-family: 'Merriweather', serif;
+    margin: 5% 0 0 0;
+    background-color: beige;
+    padding: 5% 0;
+}
+
+.questions-sec-header{
+    text-align: center;
+    margin: 5% 0;
+}
+
+.questions-sec-header h1{
+    font-weight: 800;
+}
+
+.questions-first-row , .questions-second-row , .questions-third-row , .questions-fourth-row{
+    margin: 5% 0;
+}
+
+.question-sec-inner h4{
+    font-weight: 600;
+}
+
+.question-sec-inner p{
+    margin: 3% 0 0 0;
+    line-height: 1.8;
+}
+
+/* questions section end */
+
+/* another-feature section start */
+
+.another-feature{
+    font-family: 'Merriweather', serif;
+    padding: 5% 0;
+    background-color: rgb(241, 212, 212);
+    text-align: center;
+}
+
+.another-feature-main h4{
+    font-weight: 600;
+    margin: 5% 0;
+}
+
+/* another-feature section end */
+
+/* covinced section start */
+
+.convinced-sec{
+    margin: 0 0;
+    padding: 10% 0;
+    font-family: 'Merriweather', serif;
+    background-image: url("https://source.unsplash.com/1920x1080/?nature");
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.convinced-sec-main{
+    background-color: #fff;
+    padding: 10% 10%;
+    margin: 0 10%;
+}
+
+.email-me-btn{
+    padding: 15px 15px;
+    border-radius: 5px;
+    font-size: 24px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    background-color: #9b716a;
+}
+
+.convinced-sec .email-me-btn:hover{
+    background-color: #81564e;
+    border: none;
+}
+
+.convinced-sec-inner h1{
+    margin: 2% 0;
+    font-weight: 800;
+}
+
+.convinced-sec-inner p{
+    margin: 2% 0;
+    line-height: 1.8;
+}
+
+.convinced-sec .email-me-btn{
+    margin: 2% 0;
+}
+
+/* convinced section end */

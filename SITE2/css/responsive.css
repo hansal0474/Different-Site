@@ -1,0 +1,220 @@
+/* responsive css */
+
+/*
+col-sm for larger mobile phones (devices with resolutions ≥ 576px);
+col-md for tablets (≥768px);
+col-lg for laptops (≥992px);
+col-xl for desktops (≥1200px)
+*/
+
+
+ /* large device  768 to 991 */
+@media screen and (max-width:991px) {
+    .background-gradiant{
+        padding: 0 0 50px 0;
+    }
+}
+
+/* medium device 576 to 767 */
+
+@media screen and (max-width:767px) {
+    .background-gradiant{
+        padding: 0 0 70px 0;
+    }
+
+    .front-page-left-main{
+        margin: 130px 0;
+        text-align: center;
+    }
+
+    .front-page-left-inner h1{
+        margin: 20px 0;
+        font-size: 52px;
+    }
+
+    .front-page-left-inner h4{
+        margin: 10px 0;
+    }
+
+    .front-page-left-inner .get-the-app-btn{
+        margin: 50px 0;
+    }
+
+    .front-page-right-inner{
+        margin: 50px 0;
+        text-align: center;
+    }
+
+
+    /* feature section */
+    .feature-sec{
+        text-align: center;
+        order: 2;
+        padding: 0 30px;
+    }
+
+    .feature-sec .reorder{
+        order: 2;
+    }
+
+    .first-feature, .second-feature, .third-feature{
+        margin: 10px 0;
+    }
+
+    /* activity section */
+
+    .activity-sec{
+        padding: 0 30px;
+    }
+
+    /* use section */
+
+    .use-sec{
+        text-align: center;
+        margin: 0 0;
+    }
+
+    .use-sec .use-second .reorder{
+        order: 2;
+    }
+
+    /* feedback section */
+    .feedback-sec{
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+
+    /* get started section */
+    .get-started-sec{
+        padding: 60px 0;
+    }
+
+    .get-started-sec .download-btn{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .get-started-sec .get-in-touch-btn{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    /* get update section */
+    .get-update-sec {
+        padding: 90px 0 50px 0;
+        text-align: center;
+
+    }
+
+    .get-update-sec input{
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .subscribe-btn{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+}
+
+/* small device devices  */
+
+@media screen and (max-width: 575px){
+    /*  front section  */
+
+    .background-gradiant{
+        padding: 0 0 50px 0;
+    }
+
+    .front-page-left-main{
+        margin: 100px 0;
+        text-align: center;
+    }
+
+    .front-page-left-inner h1{
+        margin: 20px 0;
+        font-size: 48px;
+    }
+
+    .front-page-left-inner h4{
+        margin: 10px 0;
+    }
+
+    .front-page-left-inner .get-the-app-btn{
+        margin: 30px 0;
+    }
+
+    .front-page-right-inner{
+        margin: 30px 0;
+        text-align: center;
+    }
+
+
+    /* feature section */
+    .feature-sec{
+        text-align: center;
+        order: 2;
+        padding: 0 30px;
+    }
+
+    .feature-sec .reorder{
+        order: 2;
+    }
+
+    /* activity section */
+
+    .activity-sec{
+        padding: 0 30px;
+    }
+
+    /* use section */
+
+    .use-sec{
+        text-align: center;
+        margin: 0 0;
+    }
+
+    .use-sec .use-second .reorder{
+        order: 2;
+    }
+
+    /* feedback section */
+    .feedback-sec{
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* get started section */
+    .get-started-sec{
+        padding: 50px 0;
+    }
+
+    .get-started-sec .download-btn{
+        padding: 7px 20px;
+        font-size: 12px;
+    }
+
+    .get-started-sec .get-in-touch-btn{
+        padding: 7px 20px;
+        font-size: 12px;
+    }
+
+    /* get update section */
+    .get-update-sec {
+        padding: 70px 0 50px 0;
+        text-align: center;
+
+    }
+
+    .get-update-sec input{
+        padding: 7px 0;
+        font-size: 12px;
+    }
+
+    .subscribe-btn{
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+}

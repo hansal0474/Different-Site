@@ -1,0 +1,40 @@
+/* responsive css */
+
+@media screen and (max-width: 767px){
+    .welcome-sec{
+        padding: 50px 0;
+    }
+    .pain-point{
+        padding: 10px 0;
+    }
+    .module {
+        margin: 20px 0;
+    }
+    .committing-cont-main-right{
+        margin: 10% 0 5% 0%;
+    } 
+    .help-section-center {
+        margin: 15% 0% 0 0;
+    }
+    .help-section-right {
+        margin: 0 0 0 0;
+    }
+    .secret-cont-main-right {
+        margin: 80px 0 0 0px;
+    }
+    .intro-image{
+        margin-top: 20px;
+    }
+    .intoduction-sec {
+        padding: 100px 0 100px 0;
+    }
+    .goal-sec {
+        margin: 0px 0;
+    }
+    .result-question .yes-right-now-btn {
+        margin: 0 0 30px 0;
+    }
+    .wish-section {
+        margin: 10px 0;
+    }
+}
