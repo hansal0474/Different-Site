@@ -1,0 +1,533 @@
+/* responsive css */
+
+/* max width for max to max width of screen size it will work max width or below it */
+/* min width for min to min width of screen size it will work min width to above width */
+
+/* @media screen and (min-width:500px) and (max-width:900px){} it will work 500px to 900px screen size */
+
+/*
+col-sm for larger mobile phones (devices with resolutions ≥ 576px);
+col-md for tablets (≥768px);
+col-lg for laptops (≥992px);
+col-xl for desktops (≥1200px)
+*/
+@media screen and (max-width:1199px) {
+    .buckeye-header{
+        width: 98%;
+        height: 90px;
+    }
+    .header-logo img{
+        height: 80px;
+        margin-left: 10px;
+    }
+    .nav-item{
+        font-family: var(--body-font);
+        padding: 0;
+    }
+    .header-call-details{
+        display: none;
+    }
+    .what-we-do-sec{
+        padding: 100px 0;
+    }
+    .what-we-do-sec-header h1{
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .what-we-do-card{
+        padding: 20px;
+        height: 377px;
+    }
+    .what-we-card-left-main img{
+        width: 100%;
+        height: 336px;
+    }
+    .what-we-card-right-inner h3{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .what-we-card-right-inner .read-more-btn{
+        height: 50px;
+        font-size: 20px;
+    }
+    .customization-sec{
+        width: 100%;
+        padding: 0 0 120px 0;
+    }
+    .customization-main h1{
+        font-size: 45px;
+        font-weight: 700;
+        padding: 90px 0 0 0;
+    }
+    .customiztion-para p{
+        padding-top: 30px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .customization-sec .learn-more-btn{
+        height: 45px;
+        font-size: 20px;
+    }
+    .services-sec{
+        padding: 120px 0;
+    }
+    .service-card h3{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .service-card .learn-more-btn{
+        height: 40px;
+        font-size: 16px;
+    }
+    .service-sec-right-inner h1{
+        font-size: 45px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .service-sec-right-inner .read-more-btn{
+        height: 40px;
+        font-size: 20px;
+    }
+    .carousel-heading h1{
+        font-weight: 700;
+        padding-top: 70px;
+        font-size: 45px;
+    }
+    .faq-sec{
+        padding: 70px 0;
+    }
+    .faq-heading h1{
+        font-size: 45px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    .blog-sec-heading h1{
+        font-size: 45px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    .view-all-blog .view-all-blog-btn{
+        height: 50px;
+        font-size: 20px;
+    }
+    .feature-sec{
+        padding: 120px 0;
+    }
+    .feature-sec-header h1{
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .feature-sec-main{
+        height: 300px;
+        width: 300px;
+    }
+    .feature-sec-inner img{
+        margin: 60px 0;
+        width: auto;
+        height: 100px;
+    }
+    .contact-us-sec{
+        position: relative;
+        margin: 70px 0 0 0;
+    }
+    .contact-us-left-inner h1{
+        font-weight: 700;
+        font-size: 45px;
+    }
+    .buckeye-footer{
+        padding: 100px 0;
+    }
+}
+@media screen and (max-width:991px) {
+    .buckeye-header{
+        width: 98%;
+        height: 70px;
+    }
+    .header-logo img{
+        height: 60px;
+        margin-left: 10px;
+    }
+    .nav-item{
+        font-family: var(--body-font);
+        padding: 0;
+    }
+    .header-call-details{
+        display: none;
+    }
+    .what-we-do-sec{
+        padding: 70px 0;
+    }
+    .what-we-do-sec-header h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .what-we-do-card{
+        padding: 15px 15px 25px 15px;
+        height: 100%;
+    }
+    .what-we-card-left-main img{
+        width: 100%;
+        height: 275px;
+    }
+    .what-we-card-right-inner{
+        margin-top: 10px;
+    }
+    .what-we-card-right-inner h3{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .what-we-card-right-inner .read-more-btn{
+        height: 40px;
+        font-size: 18px;
+    }
+    .what-we-card-right-inner .read-more-btn{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    } 
+    .customization-sec{
+        width: 100%;
+        padding: 0 0 100px 0;
+    }
+    .customization-main h1{
+        font-size: 32px;
+        font-weight: 700;
+        padding: 90px 0 0 0;
+    }
+    .customiztion-para p{
+        padding-top: 30px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .customization-sec .learn-more-btn{
+        height: 40px;
+        font-size: 18px;
+    }
+    .reorder{
+        order: 2;
+    }
+    .services-sec-rigth-main{
+        padding: 50px 50px 25px 50px;
+    }
+    .services-sec{
+        padding: 70px 0;
+    }
+    .service-card h3{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .service-card .learn-more-btn{
+        height: 40px;
+        font-size: 16px;
+    }
+    .service-sec-right-inner h1{
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .service-sec-right-inner .read-more-btn{
+        height: 40px;
+        font-size: 20px;
+    }
+    .carousel-heading h1{
+        font-weight: 700;
+        padding-top: 70px;
+        font-size: 32px;
+    }
+    .faq-sec{
+        padding: 70px 0;
+    }
+    .faq-heading h1{
+        font-size: 32px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    .blog-sec-heading h1{
+        font-size: 32px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    .blog-post-card-main{
+        margin-top: 20px;
+    }
+    .view-all-blog .view-all-blog-btn{
+        height: 50px;
+        font-size: 18px;
+    }
+    .feature-sec{
+        padding: 100px 0;
+    }
+    .feature-sec-header h1{
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .feature-sec-main{
+        height: 300px;
+        width: 300px;
+        margin-top: 40px;
+    }
+    .feature-sec-inner img{
+        margin: 60px 0;
+        width: auto;
+        height: 100px;
+    }
+    .map-embed{
+        height: 700px;
+    }
+    .contact-us-sec{
+        position: relative;
+        margin: 70px 0 0 0;
+    }
+    .contact-us-left-inner h1{
+        font-weight: 700;
+        font-size: 45px;
+    }
+    .buckeye-footer{
+        padding: 100px 0;
+    }
+    .copyright-detailes{
+        display: block;
+    }
+    .copyright-detailes h6{
+        display: block;
+        text-align: center;
+    }
+    .copyright-logos{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .footer-heading{
+        text-align: center;
+    }
+}
+@media screen and (max-width:767px) {
+    .buckeye-header{
+        width: 98%;
+        height: 50px;
+    }
+    .header-logo img{
+        height: 40px;
+        margin-left: 10px;
+    }
+    .nav-item{
+        font-family: var(--body-font);
+        padding: 0;
+    }
+    .header-call-details{
+        display: none;
+    }
+    .what-we-do-sec{
+        padding: 50px 0;
+    }
+    .what-we-do-card-row{
+        padding: 0;
+    }
+    .what-we-do-sec-header h1{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .what-we-do-card{
+        padding: 15px 15px 25px 15px;
+        margin-bottom: 10px;
+        height: 100%;
+    }
+    .what-we-card-left-main img{
+        width: 100%;
+        height: 200px;
+    }
+    .what-we-card-right-inner p {
+        font-size: 12px;
+    }
+    .what-we-card-right-inner h3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .what-we-card-right-inner .read-more-btn{
+        height: 30px;
+        font-size: 12px;
+    }
+    .what-we-card-right-inner .read-more-btn::before{
+        width: 120.7px;
+    }
+    .customization-sec{
+        width: 100%;
+        padding: 0 0 100px 0;
+    }
+    .customization-main h1{
+        font-size: 26px;
+        font-weight: 700;
+        padding: 70px 0 0 0;
+    }
+    .customiztion-para p{
+        padding-top: 30px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .customization-sec .learn-more-btn{
+        height: 40px;
+        font-size: 16px;
+    }
+    .reorder{
+        order: 2;
+    }
+    .services-sec-rigth-main{
+        padding: 50px 50px 25px 50px;
+    }
+    .services-sec{
+        padding: 70px 0;
+    }
+    .service-card h3{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .service-card .learn-more-btn{
+        height: 40px;
+        font-size: 16px;
+    }
+    .service-sec-right-inner h1{
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .service-sec-right-inner .read-more-btn{
+        height: 40px;
+        font-size: 16px;
+    }
+    .service-sec-right-inner p {
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .service-card p {
+        font-size: 12px;
+    }
+    .carousel-heading h1{
+        font-weight: 700;
+        padding-top: 50px;
+        font-size: 26px;
+    }
+    .carousel-caption{
+        bottom: 5% !important;
+    }
+    .carousel-item{
+        padding: 200px 0;
+    }
+    .reviews{
+        display: none;
+    }
+    .faq-sec{
+        padding: 50px 0;
+    }
+    .faq-heading h1{
+        font-size: 26px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    .blog-post-sec{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .blog-sec-heading h1{
+        font-size: 26px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    .blog-post-card-main{
+        margin-top: 20px;
+    }
+    .view-all-blog .view-all-blog-btn{
+        height: 40px;
+        font-size: 16px;
+    }
+    .feature-sec{
+        padding: 100px 0 50px 0;
+    }
+    .feature-sec-header h1{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .feature-sec-main{
+        height: 250px;
+        width: 250px;
+        margin: 40px auto 0 auto    ;
+    }
+    .feature-sec-inner img{
+        margin: 50px 0;
+        width: auto;
+        height: 70px;
+    }
+    .feature-sec-inner h3 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .contact-bg{
+        height: 600px;
+    }
+    .map-embed{
+        height: 500px;
+    }
+    .contact-bg{
+        height: 450px;
+        width: 100%
+    }
+    .contact-us-sec{
+        position: relative;
+        margin: 70px 0 0 0;
+    }
+    .contact-us-left-inner h1{
+        font-weight: 700;
+        font-size: 26px;
+    }
+    .contact-us-left-main {
+        width: 100%;
+        height: 100%;
+        padding: 5% 5% 8% 10%;
+    }
+    .contact-us-left-inner input, .contact-us-left-inner textarea {
+        margin: 5px 0;
+    }
+    .contact-submit{
+        margin-top: 20px;
+    }
+    .map-embed{
+        height: 450px;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .map-embed iframe{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .contact-us-left-inner a{
+        padding: 5px 5px;
+        font-size: 16px;
+    }
+    .buckeye-footer{
+        padding: 70px 0;
+    }
+    .copyright-detailes{
+        display: block;
+    }
+    .copyright-detailes h6{
+        display: block;
+        text-align: center;
+    }
+    .copyright-logos{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .footer-heading{
+        text-align: center;
+    }
+    .menu-inner{
+        text-align: center;
+    }
+}
+@media screen and (max-width:425px) {
+    .buckeye-footer .col-6{
+        width: 100%;
+    }
+}
