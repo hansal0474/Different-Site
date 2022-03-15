@@ -1,0 +1,96 @@
+/* responsive css */
+
+/* max width for max to max width of screen size it will work max width or below it */
+/* min width for min to min width of screen size it will work min width to above width */
+
+/* @media screen and (min-width:500px) and (max-width:900px){} it will work 500px to 900px screen size */
+
+/*
+col-sm for larger mobile phones (devices with resolutions ≥ 576px);
+col-md for tablets (≥768px);
+col-lg for laptops (≥992px);
+col-xl for desktops (≥1200px)
+*/
+
+/* medium tablet devices 768-991 */
+
+@media screen and (max-width:991px){
+    .about-new-success-left-main{
+        margin:120px 0;
+    } 
+    .experience-sec-right-main{
+        margin: 50px 0;
+    }
+    .carousel-caption img{
+        width: 100px;
+        height: 100px;
+    }
+    .carousel-item{
+        height: 350px;
+    }
+}
+
+/* mobile 568-767 */
+
+@media screen and (max-width:767px){
+    .success-sec-main{
+        text-align: center;
+        margin: 0;
+        padding: 150px 0;
+    }
+    .about-new-success{
+        padding: 10px 0;
+        margin: 0;
+        width: 100%;
+    }
+    .about-new-success-left-main{
+        margin:50px 0;
+    }
+    .reorder{
+        order: 2;
+    }
+    .community-sec{
+        padding: 50px 0 50px 0;
+        text-align: center;
+    }
+    .community-sec-right-main{
+        margin-top: 30px;
+    }
+}
+
+/* small mobile 0-567 */
+
+@media screen and (max-width:567px){
+    .success-sec-main{
+        text-align: center;
+        margin: 0;
+        padding: 100px 0;
+    }    
+    .success-sec-inner h1{
+        font-weight: 900;
+        font-size: 42px;
+        letter-spacing: 1.6px;
+        margin: 0 0 20px 0;
+    }
+    .success-sec-inner h4{
+        letter-spacing: 1.6px;
+        margin: 0 0 10px 0;
+        font-size: 1em;
+    }
+    .carousel-item{
+        height: 500px;
+    }
+    .carousel-item p{
+        padding: 10px 0;
+    }
+    .subscribe-main input{
+        margin: 10px 0;
+    }
+    .reorder{
+        order: 2;
+    }
+    .subscribe-main input{
+        width: 250px;
+        color: var(--black-color);
+    }
+}

@@ -1,0 +1,663 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+/* navigation start */
+.navigationbar{
+    position: sticky;
+    top:0;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 2px rgb(177, 175, 175);
+    z-index: 1000;
+}
+
+.navbar-brand{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-link{
+    color: gray;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: rgb(161, 38, 38)!important;
+}
+
+.button1{
+    border: none;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+/* home section start */
+
+.home-page-sec{
+    margin: 0 0;
+    padding: 150px 0;
+    background-color: rgb(250, 250, 223);
+}
+
+.home-page-left-inner h6{
+    padding: 10px 0;
+    color: rgb(161, 38, 38);
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.home-page-left-inner h1{
+    padding: 20px 0;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.home-page-left-inner p{
+    color: gray;
+}
+
+.home-page-left-inner .shop-collection-btn{
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    padding: 15px 20px;
+    border: none;
+    background-color: rgb(134, 17, 17);
+    transition: 0.3s linear;
+}
+
+.home-page-left-inner .shop-collection-btn:hover{
+    background-color: gray;
+    transition: 0.3s linear;
+    transform: translate(0px, -6px);
+}
+
+.home-page-left-inner span{
+    font-size: 58px;
+    color: rgb(161, 38, 38);
+}
+
+.home-page-right-main{
+    text-align: center;
+}
+
+.home-page-right-main img{
+    width: 100%;
+    height: 100%;
+}
+
+/* home section end */
+
+/* product catagory start */
+
+.product-cat-sec{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.product-name-main-vases{
+    margin: 0 auto 0 auto;
+    height: 240px;
+    width: 240px;
+    color: white;
+    background-color: #e4b366;
+    border-radius: 50%;
+    border: 30px solid #dfa64a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-name-main-mugs{
+    margin: 0 auto 0 auto;
+    height: 240px;
+    width: 240px;
+    color: white;
+    background-color: #f05b10;
+    border-radius: 50%;
+    border: 30px solid #ee4f00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-name-main-plates{
+    margin: 0 auto 0 auto;
+    height: 240px;
+    width: 240px;
+    color: white;
+    background-color: #a21010;
+    border-radius: 50%;
+    border: 30px solid #970000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.product-cat-inner h6{
+    letter-spacing: 2px;
+    color: rgb(161, 38, 38);
+}
+
+.product-cat-inner h1{
+    font-size: 42px;
+    font-weight: 600;
+    padding: 30px 0 70px 0;
+    letter-spacing: 2px;
+}
+
+.product-cat-inner span{
+    font-size: 58px;
+    color: rgb(161, 38, 38);
+}
+
+.product-name-inner h6{
+    padding: 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/* product catagory end */
+
+/* aboutus secion start */
+
+.aboutus-sec{
+    padding: 0 0 70px 0;
+}
+
+.aboutus-inner h1{
+    padding: 15px 0;
+}
+
+/* product section start */
+.product-sec{
+    padding: 150px 0 0 0;
+}
+
+.product-gold-left-inner img{
+    margin: -30px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.product-gold-right-inner img{
+    margin: -30px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.product-1{
+    padding: 50px 0;
+}
+
+.product-2{
+    padding: 50px 0;
+}
+
+/* aboutus section end */
+
+/* pottery collection section start */
+
+.pottery-sec{
+    padding: 80px 0 20px 0;
+}
+
+.collection-sec{
+    padding: 30px 0;
+}
+
+.pottery-header-main{
+    text-align: center;
+}
+
+.pottery-header-inner h5{
+    color: rgb(161, 38, 38);
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+
+.pottery-header-inner h1{
+    padding: 20px 0;
+    letter-spacing: 2px;
+}
+
+.item-inner img{
+    width: 100%;
+    height: 400px;
+}
+
+.item-inner{
+    overflow: hidden;
+}
+
+.item-inner img{
+    transition: 0.2s all linear;
+}
+
+.item-inner img:hover{
+    transform: scale(1.2);
+    transition: 0.2s all linear;
+}
+
+.collection-content-inner h6{
+    padding: 15px 0 0 0;
+}
+
+.first-row , .second-row , .third-row{
+    padding: 30px 0;
+}
+
+.item{
+    border-bottom: 1px solid gray;
+    transition: 0.2s all linear;
+}
+
+.item:hover{
+    border-bottom: 1px solid rgb(161, 38, 38);
+    transition: 0.2s all linear;
+}
+
+.view-button{
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+
+.view-all-product-btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    padding: 15px 20px;
+    border: none;
+    background-color: rgb(134, 17, 17);
+    transition: 0.3s linear;
+    text-transform: uppercase;
+}
+
+.view-all-product-btn:hover{
+    background-color: gray;
+    transition: 0.3s linear;
+    transform: translate(0px, -6px);
+}
+
+/* pottery collection section end */
+
+/* ready section start */
+
+.ready-sec{
+    margin: 100px 0;
+    background-image: url("b.jpeg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.ready-sec-main{
+    padding: 150px 0;
+}
+
+.ready-sec-inner h6{
+    color: rgb(161, 38, 38);
+    font-weight: 600;
+    padding: 10px 0;
+    letter-spacing: 2px;
+}
+
+.ready-sec-inner h1{
+    letter-spacing: 2px;
+}
+
+.new-collection-btn{
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    padding: 15px 20px;
+    border: none;
+    background-color: rgb(134, 17, 17);
+    transition: 0.3s linear;
+    text-transform: uppercase;
+}
+
+.new-collection-btn:hover{
+    background-color: gray;
+    transition: 0.3s linear;
+    transform: translate(0px, -6px);
+}
+
+/* ready section end */
+
+/* latest news start */
+
+.latest-sec{
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+
+.icon{
+    display: inline-block;
+    border: 20px solid #e4b366;
+    border-radius: 50%;
+    background-color: #e4b366;
+    color: white;
+}
+
+.latest-sec-inner h6{
+    text-transform: uppercase;
+    color: rgb(161, 38, 38);
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+
+.latest-sec-inner h1{
+    letter-spacing: 2px;
+    padding: 10px 0 30px 0;
+}
+
+.latest-sec-inner span{
+    font-size: 58px;
+    color: rgb(161, 38, 38);
+}
+
+.latest-sec-inner input{
+    padding: 15px 10px;
+    border: 1px solid rgb(151, 56, 56);
+    outline: none;
+    caret-color: rgb(204, 43, 70);
+}
+
+input[type=email]:focus{
+    border: 1px solid rgb(204, 43, 70);
+}
+
+.subscribe-btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    padding: 15px 20px;
+    border: none;
+    background-color: rgb(134, 17, 17);
+    transition: 0.3s linear;
+    text-transform: uppercase;
+}
+
+.subscribe-btn:hover{
+    background-color: gray;
+}
+
+/* latest news end */
+
+/* footer start */
+
+.footer-sec{
+    padding: 100px 0 30px 0;
+    text-align: center;
+}
+
+.footer-heading{
+    padding: 40px 0;
+}
+
+.footer-heading-inner h1{
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    padding: 0 0 10px 0;
+}
+
+.footer-heading-inner p{
+    letter-spacing: 2px;
+    color: gray;
+}
+
+.contact-detailes-main{
+    padding: 30px 0 60px 0;
+}
+
+.contact-detailes-inner i{
+    padding: 10px 0;
+    color: gray;
+}
+
+.contact-detailes-inner h6{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+
+.contact-detailes-inner p{
+    padding: 10px 0;
+}
+
+/* footer end */
+
+
+/* other pages */
+
+/* about us page start */
+
+.aboutus-page-main{
+    padding: 100px 0 100px 0;
+    background-image: url("https://source.unsplash.com/1920x800/?nature");
+    color: #fff;
+
+}
+
+.aboutus-inner-content h1{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.aboutus-inner-content p{
+    line-height: 1.6;
+}
+
+/* crew section start */
+.crew-sec{
+    padding: 70px 0 50px 0;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.crew-card-main{
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.crew-heading-main{
+    padding: 30px 0;
+}
+
+.crew-heading-inner h6{
+    color: rgb(161, 38, 38);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.crew-card-inner img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.crew-card-inner h5{
+    padding: 20px 0 10px 0;
+    letter-spacing: 2px;
+}
+
+.crew-card-inner h6{
+    color: grey;
+    padding: 0 0 30px 0;
+}
+
+.crew-card-inner p{
+    padding: 0 0 30px 0;
+}
+
+.crew-card-inner i{
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 5px;
+    color: gray;
+}
+
+.crew-card-inner i:hover{
+    color: rgb(161, 38, 38);
+    border: 1px solid rgb(161, 38, 38);
+    transition: 0.1s all linear;
+}
+/* about us page end */
+
+/* shop page start */
+
+.shop-page-main{
+    padding: 100px 0 100px 0;
+    background-image: url("https://source.unsplash.com/1920x800/?nature");
+    color: #fff;
+}
+
+.shop-inner-content h1{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.shop-inner-content p{
+    line-height: 1.6;
+}
+
+/* shop page end */
+
+/* contact us page start */
+
+.contactus-page-main{
+    padding: 100px 0 100px 0;
+    background-image: url("https://source.unsplash.com/1920x800/?nature");
+    color: #fff;
+}
+
+.contactus-inner-content h1{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.contactus-inner-content p{
+    line-height: 1.6;
+}
+
+.get-in-touch{
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+
+.contact-details-main{
+    padding: 80px 0 0 0;
+    text-transform: uppercase;
+}
+
+.get-in-touch-sec-inner h6{
+    color: rgb(161, 38, 38);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.get-in-touch-sec-inner h1{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.drop-image img{
+    width: 100%;
+    height: 250px;
+}
+
+.drop-detailes{
+    padding: 30px 0;
+}
+
+.map-inner img{
+    width: 100%;
+    height: 500px;
+}
+
+.drop-contant-main label{
+    display: block;
+    font-weight: 500;
+}
+
+.name-and-email input{
+    width: 100%;
+    padding: 10px 0 10px 40px;
+}
+
+.drop-contant-main textarea{
+    width: 100%;
+    padding: 10px 40px;
+}
+
+.name-and-email label{
+    display: block;
+    font-weight: 500;
+}
+
+.name-and-email #name{
+    background-image: url("contact.png");
+    background-size: 20px 20px;
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
+}
+
+.name-and-email #email{
+    background-image: url("email.png");
+    background-size: 20px 20px;
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
+}
+
+.send-message-btn{
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    padding: 15px 20px;
+    border: none;
+    background-color: rgb(134, 17, 17);
+    transition: 0.3s linear;
+}
+
+.send-message-btn:hover{
+    background-color: gray;
+    transition: 0.3s linear;
+    transform: translate(0px, -6px);
+}
+/* contact us page end */
+
+
+
+/* cart page start */
+
+
+
+/* cart page end */
+

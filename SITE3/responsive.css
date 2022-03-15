@@ -1,0 +1,163 @@
+/* responsive css */
+
+/* max width for max to max width of screen size it will work max width or below it */
+/* min width for min to min width of screen size it will work min width to above width */
+
+/* @media screen and (min-width:500px) and (max-width:900px){} it will work 500px to 900px screen size */
+
+/*
+col-sm for larger mobile phones (devices with resolutions ≥ 576px);
+col-md for tablets (≥768px);
+col-lg for laptops (≥992px);
+col-xl for desktops (≥1200px)
+*/
+
+/* medium devices 768-991 */
+
+@media screen and (max-width:991px) {
+
+    .home-page-sec{
+        text-align: center;
+        margin: 0 0;
+        padding: 150px 0;
+    }
+
+    .home-page-right-main img {
+        width: 100%;
+        height: 100%;
+        padding: 30px 0 0 0;
+    }
+
+    .product-cat-sec .col-12{
+        padding: 10px 0;
+    }
+
+    .aboutus-main h1{
+        height: 162px;
+    }
+
+    .product-sec{
+        padding: 50px 0 0 0;
+    }
+
+    .item-inner img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .ready-sec {
+        margin: 50px 0;
+    }
+
+    .ready-sec-main {
+        padding: 100px 0;
+    }
+
+    .latest-sec {
+        text-align: center;
+        padding: 50px 0 50px 0;
+    }
+
+    .footer-sec {
+        padding: 50px 0 30px 0;
+        text-align: center;
+    }
+
+    .ready-sec {
+        background-position: center;
+    }
+}
+
+/*  (≥768px); small  devices max to max 767px screen size it will work (max-767px and below it) */
+@media screen and (max-width:767px) {
+
+    .home-page-sec{
+        padding: 100px 0 50px 0 ;
+    }
+    .aboutus-inner h1 {
+        height: 120px ;
+    }
+
+    .aboutus-sec {
+        padding: 0 0 20px 0;
+    }
+
+    .product-cat-sec {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .product-gold-left-inner img {
+        margin: 0 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .product-sec{
+        padding: 20px 0 0 0;
+    }
+
+    .product-1{
+        padding: 20px 0;
+    }
+
+    .product-gold-right-main{
+        padding: 10px 0 0 0 ;
+    }
+
+    .product-2 {
+        padding: 20px 0;
+    }
+
+    .product-gold-right-inner img {
+        margin: 0 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .product-2 .reorder{
+        order: 1;
+    }
+
+    .product-gold-left-main{
+        padding: 10px 0 0 0;
+    }
+
+    .pottery-sec{
+        padding: 40px 0 20px 0;
+        text-align: center;
+    }
+
+    .pottery-sec .second-row, .third-row{
+        display: none;
+    }
+
+    .pottery-sec .item{
+        padding: 10px 0;
+    }
+
+    .item-inner img{
+        width: 100%;
+        height: 400px;
+    }
+
+    .ready-sec{
+        margin: 10px 0;
+    }
+
+    .footer-sec{
+        padding: 30px 0 10px 0;
+    }
+
+    .contact-detailes-main{
+        padding: 10px 0 30px 0;
+    }
+
+    .contact-detailes-main {
+        padding: 10px 0 10px 0;
+    }
+
+    .footer-heading {
+        padding: 10px 0;
+    }
+}
