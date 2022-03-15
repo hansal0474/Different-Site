@@ -1,0 +1,389 @@
+/* responsive css */
+
+/* max width for max to max width of screen size it will work max width or below it */
+/* min width for min to min width of screen size it will work min width to above width */
+
+/* @media screen and (min-width:500px) and (max-width:900px){} it will work 500px to 900px screen size */
+
+/*
+col-sm for larger mobile phones (devices with resolutions ≥ 576px);
+col-md for tablets (≥768px);
+col-lg for laptops (≥992px);
+col-xl for desktops (≥1200px)
+*/
+/* very large device */
+@media screen and (min-width:1199px) {
+    .about-finbuzz {
+        position: relative;
+    }
+    .about-finbuzz .center-bg{
+        position: absolute;
+        left: 400px;
+        top: 50px;
+        z-index: -1;
+    }
+    .home-page{
+        position: relative;
+    }
+    .left-bottom-bg{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        animation-name: fadeInUp;
+        animation-duration: 0.5s;
+    }
+    .right-top-bg{
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        animation-name: fadeInUp;
+        animation-duration: 0.5s;
+    }
+    .city-title h4::after {
+        content: "";
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        height: 4px;
+        width: 25px;
+        background-color: var(--orange-main-color);
+        border-radius: 10px;
+    }
+    .city-title h4::before {
+        content: "";
+        position: absolute;
+        top: 70px;
+        left: 0;
+        height: 4px;
+        width: 15px;
+        background-color: var(--light-orange-color);
+        border-radius: 10px;
+    }
+}
+/* leptop device 992-1199 */
+@media screen and (max-width:1199px) {
+    .skill-sec-left-main {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-right: 140px;
+        padding-left: calc(100% - 500px);
+    }
+    .call-sec-left-main {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    .slider-inner{
+        display: flex;
+    }
+    .slider-quote{
+        background-color: var(--black-color);
+        color: var(--gray-color);
+        padding: 25px 50px 25px 40px ;
+        font-size: 20px;
+    }
+    .client-sec{
+        padding: 100px 0 0 0;
+    }
+    .left-bottom-bg{
+        display: none;
+    }
+    .right-top-bg{
+        display: none;
+    }
+    .map-embed{
+        display: none;
+    }
+    .list-col::after {
+        display: none;
+    }
+    .social-media-col::after {
+        display: none;
+    }
+    .about-finbuzz .center-bg{
+        display: none;
+    }
+}
+/* medium tablet devices 768-991 */
+@media screen and (max-width:991px) {
+    .navbar-main{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: var(--white-color);
+        z-index: 100;
+    }
+    .home-page{
+        padding-top: 150px;
+    }
+    .left-bottom-bg{
+        display: none;
+    }
+    .right-top-bg{
+        display: none;
+    }
+    .top-bar{
+        display: none;
+    }
+    .banner-btns{
+        display: none;
+    }
+    .home-left-main h1::before{
+        display: none;
+    }
+    .home-left-main h1{
+        padding-left: 0;
+        font-size: 36px;
+        padding-bottom: 20px;
+    }
+    .home-left-main h6{
+        padding-left: 0;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .card-inner h5 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .about-finbuzz-right-inner img{
+        display: block;
+        margin: 10px auto;
+    }
+    .about-finbuzz-left-inner h6{
+        font-size: 18px;
+    }
+    .about-finbuzz .center-bg{
+        display: none;
+    }
+    .about-finbuzz-left-inner h1{
+        font-size: 30px;
+    }
+    .pattern-main{
+        padding-bottom: 30px;
+    }
+    .skill-sec-left-main {
+        padding: 100px 50px;
+        text-align: center;
+    }
+    .line-fig{
+        display: none;
+    }
+    .team-member-head-inner p {
+        margin-bottom: 50px;
+        padding: 0 0;
+    }
+    .financial-help-main{
+        display: block;
+    }
+    .contact-box2 .item-icon-box {
+        display: flex;
+        padding-left: 35px;
+    }
+    .financial-help-inner img {
+        display: none;
+    }
+    .financial-help-right-main{
+        text-align: center;
+        display: block;
+    }
+    .contact-box2{
+        display: flex;
+    }
+    .financial-help-right-inner{
+        padding: 45px 50px 34px 130px;
+    }
+    .item-icon-box .item-icon-box2{
+        position: relative;
+    }
+    .profit-right-main{
+        padding-top: 40px;
+    }
+    .slider-inner{
+        display: flex;
+    }
+    .slider-quote{
+        background-color: var(--black-color);
+        color: var(--gray-color);
+        padding: 25px 50px 25px 40px ;
+        font-size: 20px;
+    }
+    .client-sec {
+        padding: 0;
+    }
+    .admin-news-head h2{
+        font-size: 20px;
+    }
+    .admin-name {
+        padding: 0;
+    }
+    .city-info-main{
+        padding: 50px auto;
+    }
+    .map-embed{
+        display: none;
+    }
+    .city-info-row-two {
+        padding: 10px 0;
+    }
+    .blog-sec{
+        padding: 10px 0;
+    }
+    .blog-sec-top-right-img{
+        display: none;
+    }
+    .fin-footer {
+        padding: 50px 0;
+    }
+    .footer-social-media li {
+        padding: 5px 10px;
+    }
+    .social-media-col::after {
+        display: none;
+    }
+    .footer-list-column{
+        display: block;
+    }
+    .footer-list-column{
+        margin: 0;
+    }
+    .list-col::after {
+        display: none;
+    }
+    .copyright .left-copyright-img {
+        right: 19%;
+    }
+    .copyright .right-copyright-img {
+        left: 19%;
+    }
+}
+/*large mobile device 576-767 */
+@media  screen and (max-width:767px) {
+    .navbar-main{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: var(--white-color);
+        z-index: 100;
+    }
+    .home-left-main h1 {
+        font-size: 30px;
+    }
+    .left-bottom-bg{
+        display: none;
+    }
+    .right-top-bg{
+        display: none;
+    }
+    .home-page {
+        padding: 100px 0 30px 0;
+    }
+    .about-finbuzz .center-bg{
+        display: none;
+    }
+    .card-inner{
+        box-shadow: 0 20px 12px rgb(237, 237, 248);
+        margin-bottom: 10px;
+    }
+    .pattern-main {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .what-we-do-left-main h2{
+        font-size: 30px;
+    }
+    .business-services-content h4{
+        font-size: 22px;
+    }
+    .skill-sec-left-inner h2{
+        font-size: 30px;
+    }
+    .team-member-head-inner h1{
+        font-size: 30px;
+    }
+    .team-member .team-right-bg img {
+        display: none;
+    }
+    .team-member .team-left-bg img {
+        display: none;
+    }
+    .member-card{
+        margin-bottom: 20px;
+    }
+    .financial-help-right-inner {
+        padding: 45px 50px 34px 50px;
+    }
+    .world-map li:nth-child(1n) {
+        position: absolute;
+        left: 40%;
+        top: 20%;
+    }
+    .world-map li:nth-child(2n) {
+        position: absolute;
+        left: 70%;
+        top: 50%;
+    }
+    .world-map li:nth-child(3n) {
+        position: absolute;
+        left: 30%;
+        top: 40%;
+    }
+    .world-map li:nth-child(4n) {
+        position: absolute;
+        left: 90%;
+        top: 30%;
+    }
+    .world-map li:nth-child(5n) {
+        position: absolute;
+        left: 40%;
+        top: 60%;
+    }
+    .slider-inner{
+        display: block;
+    }
+    .slider-img img{
+        display: block;
+        margin: 0 auto;
+    }
+    .blog-img{
+        margin-bottom: 30px;
+    }
+    .copyright .left-copyright-img {
+        right: 9%;
+    }
+    .copyright .right-copyright-img {
+        left: 9%;
+    }
+}
+/* mobile device 0-575 */
+@media screen and (max-width:575px) {
+    .navbar-main{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: var(--white-color);
+        z-index: 100;
+    }
+    .left-bottom-bg{
+        display: none;
+    }
+    .right-top-bg{
+        display: none;
+    }
+    .home-page{
+        padding-top: 65px;
+    }
+    .about-finbuzz .center-bg{
+        display: none;
+    }
+    .city-info-main {
+        padding: 100px auto;
+    }
+    .right-copyright-img{
+        display: none;
+    }
+    .left-copyright-img{
+        display: none;
+    }
+}
