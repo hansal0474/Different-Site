@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Oswald:wght@300&display=swap');
+
+.timeline {
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.timeline ol {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 11rem 0;
+    transition: all 0.5s;
+    margin: 0;
+}
+
+.timeline ol li {
+    width: 130px;
+    height: 39px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    position: relative;
+    text-align: center;
+    margin: 0.15em;
+    margin-right: 4%;
+    display: inline-block;
+	z-index:9;
+}
+
+.timeline ol li:nth-child(even) {
+    background: #d89700;
+}
+
+.timeline ol li:nth-child(odd) {
+    background: #367dca;
+}
+
+.timeline ol li:nth-child(odd) .timeline-dot::after {
+    content: '';
+    background-image: url(../Ellipse-1-copy1.png);
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    height: 104px;
+    width: 6px;
+    z-index: 1;
+}
+
+.timeline ol li .timeline-content {
+    position: absolute;
+    left: 7px;
+    width: auto;
+    padding-left: 8px;
+    font-size: 1rem;
+    white-space: normal;
+    text-align: left;
+    padding-top: 35px;
+}
+
+.timeline ol li .timeline-content p {
+    margin-top: 70px;
+}
+
+.timeline ol li:nth-child(even) .timeline-dot::after {
+    content: '';
+    background-image: url(../Ellipse-1-copy.png);
+    position: absolute;
+    left: 0;
+    top: 50px;
+    height: 104px;
+    width: 6px;
+    z-index: 1;
+}
+
+.timeline ol li .timeline-content {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-100%);
+    order: 1;
+}
+
+.timeline ol li:nth-child(even) div p {
+    margin-top: -6px;
+    margin-bottom: 0;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #636363;
+}
+
+.timeline ol li:nth-child(even) .timeline-content {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(0);
+}
+
+.timeline ol li:nth-child(even):after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    border-top: 19.5px solid transparent;
+    border-bottom: 19.5px solid transparent;
+    border-left: 19px solid #d89700;
+    right: -19px;
+    top: 0;
+}
+
+.timeline ol li:nth-child(odd):after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    border-top: 19.5px solid transparent;
+    border-bottom: 19.5px solid transparent;
+    right: -19px;
+    top: 0;
+    border-left: 19px solid #367dca;
+}
+
+.timeline-step-number {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 15px;
+    color: #fff;
+}
+
+.timeline ol li:nth-child(even):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -90px;
+    background-color: #d89700;
+    width: 100px;
+    height: 2.31px;
+    transform: translateY(-50%);
+}
+
+.timeline ol li:nth-child(odd):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 2.31px;
+    background-color: #367dca !important;
+    width: 100px !important;
+    right: -90px;
+    transform: translateY(-50%);
+}
+
+.timeline ol li:nth-child(odd) .timeline-content p {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #636363;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.timeline ol li:nth-child(odd) .timeline-content h4{
+    color: #367dca;
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.timeline ol li:nth-child(even) .timeline-content h4{
+    color: #d89700;
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.timeline ol li:nth-child(even):last-child:before {
+    content: unset;
+}
+.cust-our-history-timeline li.timeline-line {
+    left: unset !important;
+    position: relative !important;
+    border: 0 !important;
+}
