@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.css">
+	<style type="text/css">
+		.slider-item {
+		  height: auto;
+		  font-size: 72px;
+		  text-align: center;
+		  line-height: 200px;
+		}
+		/* Slider arrows */
+		.slick-arrow {
+		  z-index: 9;
+		}
+		.slick-prev {
+		  left: 0;
+		}
+		.slick-next {
+		  right: 0;
+		}
+		.slick-dots {
+		position: absolute;
+		top: 0px;
+		display: flex !important;
+		align-items: flex-end !important;
+		justify-content: flex-start;
+		width: 100%;
+		padding:0 ;
+		list-style: none;
+		text-align: center;
+		flex-direction: column !important;
+		}
+		.slick-dots li {
+		position: relative;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		margin: 15px 0 15px 0;
+		cursor: pointer;
+		}
+		.slick-active {
+		position: relative;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		margin: 15px 0 100px 0 !important;
+		cursor: pointer;
+		}
+		.slick-dots .slick-active::after {
+			content: "";
+			position: absolute;
+			left: 8px;
+			top: 60px;
+			width: 4px;
+			height: 70px;
+			background-color: black;
+		}
+		.slick-dots .slick-active::before {
+			content: "";
+			position: absolute;
+			left: 9px;
+			top: 30px;
+			width: 2px;
+			height: 100px;
+			background-color: gray;
+		}
+
+		/* END: Slider arrows */
+	</style>
+</head>
+<body>
+<div class="container py-5">
+<div id="carousel" class="slider">
+  <div class="slider-item"><img src="Mask group.png" alt="" srcset=""></div>
+  <div class="slider-item"><img src="image 2.png" alt="" srcset=""></div>
+  <div class="slider-item">Slide nb 3</div>
+</div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+	  var slickOpts = {
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    //centerMode: true,
+	    easing: 'swing', // see http://api.jquery.com/animate/
+	    speed: 700,
+	    dots: true,
+	    arrows: false,
+	    customPaging: function(slick,index) {
+	        return '<a>' + (index + 1) + '</a>';
+	    }
+	  };
+	  // Init slick carousel
+	  $('#carousel').slick(slickOpts);
+	});
+</script>
+</body>
+</html>
